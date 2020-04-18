@@ -11,7 +11,7 @@ Example:
 
 ```yaml
 steps:
-- uses: josephbmanley/butler-publish-itchio-action@master
+- uses: AdventureByte/action-butler-publish-itchio@master
   env:
     BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
     CHANNEL: windows
